@@ -1,9 +1,8 @@
-# Veed Technical Assignment - completed by Vladilen Panaiotov
+#  Technical Assignment - completed by Vladilen Panaiotov
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
-The idea of this project is to implement a small client application for discovering trending
-repositories on GitHub. You can like and dislike repositories, switch between viewing all repositories and favorite ones and filter by language.
+The idea of this project is to implement a small client application for Pockemons. You can filter by pokemons name or see details for a specific pokemon.
 
 **You must install node modules before you can run the application. Please run:**
 ### `npm install`
