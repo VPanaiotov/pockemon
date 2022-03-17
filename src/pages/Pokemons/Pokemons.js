@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import RepositoriesContext from '../../providers/PokemonsContext';
+import PokemonsContext from '../../providers/PokemonsContext';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
 
 const PokemonsPage = () => {
     const classes = useStyles();
-    const initialPokemons = useContext(RepositoriesContext).pokemons;
+    const initialPokemons = useContext(PokemonsContext).pokemons;
     const [pokemons, setPokemons] = useState([]);
 
     useEffect(() => {
